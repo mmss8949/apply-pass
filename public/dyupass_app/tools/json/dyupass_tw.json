@@ -1,0 +1,124 @@
+{
+  "app_pass_type": [
+    {
+      "code_no": "C",
+      "code_value": "汽車通行證"
+    },
+    {
+      "code_no": "M",
+      "code_value": "機車通行證"
+    },
+	{
+      "code_no": "K",
+      "code_value": "關懷汽車通行證"
+    },
+	{
+      "code_no": "O",
+      "code_value": "關懷機車通行證"
+    }
+  ],
+  "vr_data": [
+    {
+      "code_no": "vr_smye",
+      "code_value": "學年"
+    },
+    {
+      "code_no": "vr_smty",
+      "code_value": "學期"
+    },
+	{
+      "code_no": "vr_penalty",
+      "code_value": "處罰"
+    },
+	{
+      "code_no": "vr_date",
+      "code_value": "開單時間"
+    },
+	{
+      "code_no": "vr_dept",
+      "code_value": "開單單位"
+    },
+	{
+      "code_no": "vr_stno",
+      "code_value": "違規學號"
+    },
+	{
+      "code_no": "vr_plate_number",
+      "code_value": "違規車號"
+    },
+	{
+      "code_no": "vr_place",
+      "code_value": "違規地點"
+    },
+	{
+      "code_no": "vr_note",
+      "code_value": "違規事項"
+    }
+  ],
+  "vehicle_category": [
+    {
+      "code_no": 1,
+      "code_value": "汽車"
+    },
+    {
+      "code_no": 2,
+      "code_value": "機車"
+    },
+    {
+      "code_no": 3,
+      "code_value": "重機"
+    }
+  ],
+  "approval_status": [
+    {
+      "code_no": 1,
+      "code_value": "暫存"
+    },
+    {
+      "code_no": 2,
+      "code_value": "退件"
+    },
+    {
+      "code_no": 3,
+      "code_value": "待審核"
+    },
+    {
+      "code_no": 4,
+      "code_value": "審核完成"
+    },
+	{
+      "code_no": 5,
+      "code_value": "刪除"
+    }
+  ],
+  "violation_msg": [
+    {
+      "code_no": 1,
+      "code_value": "同學，您上學年車輛違規兩次以上無法申請通行證，如有問題請洽承辦人 !!"
+    },
+    {
+      "code_no": 2,
+      "code_value": "依據本校車輛行駛校區管制辦法規定，違規停車除依相關規定懲處外，一學年違規兩次以上，將取消次學年度申請通行證資格。"
+    }    
+  ],
+  "alert_msg": [
+    {
+      "code_no": 1,
+      "code_value": "非申請開放期間，如有問題請洽承辦人 !"
+    }
+  ],
+  "driver_license_pass_msg": [
+    {
+      "code_no": 1,
+      "code_value": "尚未上傳駕照 !"
+    },
+    {
+      "code_no": 2,
+      "code_value": "駕照審核結果為退件，請檢視退件原因，重新送審。如有問題請洽承辦人 !"
+    },
+	{
+      "code_no": 3,
+      "code_value": "駕照審核中，如有問題請洽承辦人 !"
+    }
+  ]
+}

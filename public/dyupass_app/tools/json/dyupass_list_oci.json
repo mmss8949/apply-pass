@@ -1,0 +1,151 @@
+{
+  "result": 1,
+  "msg": "",
+  "data": {
+    "vehicle_license_list": [
+      {
+        "info": {
+          "identity": 2,
+          "plate_number": "JEP1234",
+          "vehicle_category": 1,
+          "car_owner": "鄧先生",
+          "brand": "Toyata",
+          "color": "藍色",
+          "cc": "1788",
+          "app_smye": "",
+          "app_pass_type": "",
+          "app_uname": "鄧小小",
+          "app_umail": "",
+          "app_cellphone": ""
+        },
+        "app_restrictions": {
+          "rules": [
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "O",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2022-07-31 23:59:00",
+              "violation": 0
+            },
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "K",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2022-07-31 23:59:00",
+              "violation": 0
+            }
+          ],
+          "driver_license_pass": "0",
+          "driver_license_pass_msg": "1"
+        },
+        "app_step": [
+          {
+            "title": "車輛行駛校區管制辦法",
+            "src": "../kernel/reg_pdf/dyupass_regulations.pdf"
+          },
+          {
+            "title": "汽、機車通行證申請註冊個人資料蒐集告知聲明",
+            "src": "../kernel/reg_pdf/dyupass_pims.pdf"
+          }
+        ]
+      },
+      {
+        "info": {
+          "identity": 2,
+          "plate_number": "1379WD",
+          "vehicle_category": 2,
+          "car_owner": "鄧大姐",
+          "brand": "Hoda",
+          "color": "白色",
+          "cc": "111",
+          "app_smye": "",
+          "app_pass_type": "",
+          "app_uname": "鄧小小",
+          "app_umail": "",
+          "app_cellphone": ""
+        },
+        "app_restrictions": {
+          "rules": [
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "O",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2022-07-31 23:59:00",
+              "violation": 0
+            },
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "K",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2023-07-31 23:59:00",
+              "violation": 0
+            }
+          ],
+          "driver_license_pass": "1",
+          "driver_license_pass_msg": "-1"
+        },
+        "app_step": [
+          {
+            "title": "車輛行駛校區管制辦法",
+            "src": "../kernel/reg_pdf/dyupass_regulations.pdf"
+          },
+          {
+            "title": "汽、機車通行證申請註冊個人資料蒐集告知聲明",
+            "src": "../kernel/reg_pdf/dyupass_pims.pdf"
+          }
+        ]
+      }
+    ],
+    "violation_msg": [
+      1,
+      2
+    ],
+    "button": {
+      "test_btn": {
+        "value": "交通安全測驗",
+        "src": "./forms/traffic_safety_quiz.php?gSys_s=que&gFunc_s=&gGroups_i=&gLanguage=&year=&semester=&question_no=",
+        "rules": {
+          "vshow": 1,
+          "disabled": 0,
+          "orderfromleft": 2
+        }
+      },
+      "restrict_btn": {
+        "value": "違規記錄",
+        "vr_data": [
+          {
+            "vr_smye": "107",
+            "vr_smty": "2",
+            "vr_penalty": "小過１次",
+            "vr_date": "2019/05/30",
+            "vr_dept": "總務處環境管理組",
+            "vr_stno": "F0771448",
+            "vr_plate_number": "M7H3181",
+            "vr_place": "行政大樓",
+            "vr_note": "無車輛通行證入校(車輛經環管組上鎖)"
+          },
+          {
+            "vr_smye": "107",
+            "vr_smty": "2",
+            "vr_penalty": "小過１次",
+            "vr_date": "2019/05/30",
+            "vr_dept": "總務處環境管理組",
+            "vr_stno": "F0771448",
+            "vr_plate_number": "MTH3181",
+            "vr_place": "校門口區",
+            "vr_note": "無車輛通行證入校(車輛經環管組上鎖)"
+          }
+        ],
+        "rules": {
+          "vshow": 1,
+          "disabled": 0,
+          "orderfromleft": 1
+        }
+      }
+    }
+  }
+}
