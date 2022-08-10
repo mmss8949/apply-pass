@@ -6,7 +6,7 @@
       {
         "info": {
           "identity": 2,
-          "plate_number": "JEP1234",
+          "plate_number": "ABY7568",
           "vehicle_category": 1,
           "car_owner": "鄧先生",
           "brand": "Toyata",
@@ -54,7 +54,7 @@
       {
         "info": {
           "identity": 2,
-          "plate_number": "1379WD",
+          "plate_number": "ABC7112",
           "vehicle_category": 2,
           "car_owner": "鄧大姐",
           "brand": "Hoda",
@@ -63,6 +63,54 @@
           "app_smye": "",
           "app_pass_type": "",
           "app_uname": "鄧小小",
+          "app_umail": "",
+          "app_cellphone": ""
+        },
+        "app_restrictions": {
+          "rules": [
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "O",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2022-07-31 23:59:00",
+              "violation": 0
+            },
+            {
+              "canapp_identity": 2,
+              "canapp_pass_type": "K",
+              "canapp_smye": "110",
+              "canapp_date_b": "2022-02-01 00:00:00",
+              "canapp_date_e": "2023-07-31 23:59:00",
+              "violation": 0
+            }
+          ],
+          "driver_license_pass": "1",
+          "driver_license_pass_msg": "-1"
+        },
+        "app_step": [
+          {
+            "title": "車輛行駛校區管制辦法",
+            "src": "../kernel/reg_pdf/dyupass_regulations.pdf"
+          },
+          {
+            "title": "汽、機車通行證申請註冊個人資料蒐集告知聲明",
+            "src": "../kernel/reg_pdf/dyupass_pims.pdf"
+          }
+        ]
+      },
+      {
+        "info": {
+          "identity": 2,
+          "plate_number": "APY2360",
+          "vehicle_category": 2,
+          "car_owner": "王大姐",
+          "brand": "skoda",
+          "color": "黑色",
+          "cc": "2000",
+          "app_smye": "",
+          "app_pass_type": "",
+          "app_uname": "王小兒",
           "app_umail": "",
           "app_cellphone": ""
         },
